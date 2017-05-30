@@ -10,8 +10,7 @@ Import or copy and paste the class into the actions.py
 
 Then to the make_actor function add
 
-::
-   actor.add_keyword(_('nvd latest'), NistLatest(say)) 
+``` actor.add_keyword(_('nvd latest'), NistLatest(say)) ```
 
 
 Currently only supports reading the first item. 
